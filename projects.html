@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--
+Author: Brooke Rahden
+Date: 01-05-2025
+Website for my project portfolio
+Navbar Setup:
+** Home - index.html - About Me **
+** Projects - projects.html - My Work **
+** Contact - contact.html - Get in Touch **
+-->
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brooke Rahden Portfolio</title>
+    <link rel="stylesheet" href="projects.css" /> <!-- Main CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />  <!-- Font Awesome Icons Access -->
+    <link rel="icon" type="image/x-icon" href="favicon_folder.svg"> <!-- Favicon -->
+</head>
+    <body>
+        <!-- Navbar Section -->
+         <!-- Navbar and Logo -->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="index.html" class="navbar__logo">
+                    <!-- Make only bounce once later -->
+                    <i id="logo--nav" class="fa-regular fa-folder-open fa-bounce"></i> <strong>Portfolio</strong>
+                </a>
+                <!-- Tabs Section in Navbar -->
+                <div class="navbar__nav-row">
+                    <ul class="navbar__menu">
+                        <li class="navbar__item">
+                            <a href="index.html" class="navbar__links"> About Me </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="projects.html" class="navbar__links"> My Work </a>
+                        </li>
+                        <li class ="navbar__item">
+                            <a href="contact.html" class = "navbar__links">Get In Touch</a>
+                        </li>
+                    </ul>
+                    </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+         <div class="hero__container">
+            <div class="projects__container">
+                <div class="opening-message">
+                <h1>My Projects</h1>
+                <p>Here is my work! My portfolio is ongoing because I am constantly making and learning from new projects.
+                Feel free to explore and reach out if you have any questions or opportunities!</p>
+                <div id="quote" class="quotes">
+                <script defer src="projects.js" type="text/javascript"></script>
+                </div>
+                </div>
+                
+                <div class="project__list">
+                    
+                    <!-- HTML/CSS/JavaScript Section -->
+                    <h2>HTML/CSS/JavaScript</h2>
+
+                    <!-- Short Film Website-->
+                        <h3 class="project-title">Short Film Website</h3>
+                        <div class="project__item">
+                            <div class="left-container">
+                            <p class="description">
+                                This website was created to organize and display my short films, talk about 
+                                the cast and their involvement, and provide a way to contact me for future projects.
+                                This project was purely recreational and a great way to practice my HTML and CSS skills,
+                                as well as neatly put together all my film information in one place.
+                            </p>
+                            </div>
+                            
+                            <div class="center-details">
+                                <h4><em>Quick Facts:</em></h4>
+                                <ul>
+                                    <li><strong>Course:</strong> Recreational</li>
+                                    <li><strong>Year Created:</strong> 2025</li>
+                                    <li><strong>Strengths:</strong> Neatly Organizes All Film Info, Mobile Accessible, Visually Pleasing</li>
+                                    <li><strong>Uses:</strong> HTML & CSS</li>
+                                </div>
+
+                            <div class="right-container">
+                        <img src="project1.jpg" alt="Web Img" class="project__image">
+                        <a href="https://rahdenbrooke.github.io/BRProductions/index.html" 
+                        class="project__link">Visit Website</a>
+                        </div>
+                    </div>
+
+
+                    <!-- Portfolio Website -->
+                     <h3 class="project-title">My Portfolio Website</h3>
+                        <div class="project__item" id="first-border">
+                            <div class="left-container">
+                            <p class="description">
+                                This very website you're viewing was created to display my projects!
+                                I created it to go along with my resume, and for easy access to of all my 
+                                work. I plan to add several more projects to this website as my
+                                computer sceince journey continues.
+                            </p>
+                            </div>
+                            
+                            <div class="center-details">
+                                <h4><em>Quick Facts:</em></h4>
+                                <ul>
+                                    <li><strong>Course:</strong> Recreational</li>
+                                    <li><strong>Year Created:</strong> 2026</li>
+                                    <li><strong>Strengths:</strong> Neatly Displays All Projects, Effective JavaScript, Visually Pleasing</li>
+                                    <li><strong>Uses:</strong> HTML, CSS, and JavaScript</li>
+                                </div>
+
+                            <div class="right-container">
+                        <img src="project4.jpg" alt="Web Img" class="project__image">       <!-- add project link after finished -->
+                        <a href="/"
+                        class="project__link">Visit Website</a>
+                        </div>
+                    </div>
+
+
+                    <!-- C++ Section -->
+                    <h2>C++</h2>
+
+                        <!-- Pizza Project -->
+                        <h3 class="project-title">Pizza Project</h3>
+                        <div class="project__item">
+                            <div class="left-container">
+                                <p class="description">This was my final project for C++ Programming I. The program was
+                                    designed to take a customers pizza order, asking specific questions like amounts, 
+                                    crust types, toppings, etc. At the end, the program then displays the full order with
+                                    their amounts listed. The customer is only allowed up to 5 toppings per pizza before the
+                                    program finishes the order (though they can choose to end at anytime).
+                                </p>
+                            </div>
+
+                            <div class="center-details">
+                                <h4><em>Quick Facts:</em></h4>
+                                <ul>
+                                    <li><strong>Course:</strong> C++ Programming I</li>
+                                    <li><strong>Year Created:</strong> 2025</li>
+                                    <li><strong>Strengths:</strong> Neatly Organized, Utilizes Functions, Uses Vectors & Index, Clean Display</li>
+                                    <li><strong>Team Project:</strong> No</li>
+                            </div>
+                            
+                            <div class="right-container">
+                        <img src="project2.jpg" alt="Pro Img" class="project__image">
+                        <a href="https://github.com/rahdenbrooke/PizzaProject" class="project__link">See Program</a>
+                        </div>
+                    </div>
+
+                    <!-- Student Quizzing Program -->
+                    <h3 class="project-title">Student Quizzing Program</h3>
+                    <div class="project__item" id="last-border">
+                        <div class="left-container">
+                            <p class="description">This program was part of my final for Technical Writing. My job was to create a program
+                                that quizzed students on basic math skills of their choosing. Then I had to create a website that explained exactly how to
+                                build this type of C++ program successfully. The website aided in every step of the process when 
+                                creating this program from the ground up, and the result was a calculator designed to quiz students.
+                            </p>
+                        </div> 
+
+                        <div class="center-details">
+                            <h4><em>Quick Facts:</em></h4>
+                                <ul>
+                                    <li><strong>Course:</strong> Technical Writing</li>
+                                    <li><strong>Year Created:</strong> 2025</li>
+                                    <li><strong>Strengths:</strong> Quizzes User Randomly, Organized & Clean Code, Accounts for User Errors</li>
+                                    <li><strong>Team Project:</strong> No</li>
+                            </div>
+
+                            <div class="right-container">
+                        <img src="project3.jpg" alt="Pro Img" class="project__image">
+                        <a href="https://github.com/rahdenbrooke/QuizzingCalc" class="project__link">See Program</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+        <!-- Footer Section -->
+         <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__link--wrapper">
+                    <div class="footer__link--items">
+                        <h2>Information</h2>
+                        <a href="contact.html">Contact</a>
+                        <a href="index.html">About</a>
+                    </div>
+                    <div class="footer__link--items">
+                        <h2>Socials</h2>
+                        <a href="https://www.youtube.com/@brookerahden" target = "_blank">YouTube</a>
+                        <a href="https://www.instagram.com/brookerahden/" target = "_blank">Instagram</a>
+                        <a href="https://filmfreeway.com/BrookeRahden" target = "_blank">Film Freeway</a>
+                    </div>
+                </div>
+            </div>
+
+         <!-- Copyright and Logo in Footer -->
+            <div class="social__media">         <!-- Socials that use the fa-gem and more icons from fontsawesome -->
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="index.html" class="navbar__logo"><i id="logo--footer" class="fa-regular fa-folder-open fa-bounce"></i> <strong>Portfolio</strong>
+            </a>
+                    </div>
+                    <p class="website__rights"> &copy; Brooke Rahden Portfolio 2026. All rights reserved</p>
+                </div>
+            </div>
+        </div> <!-- End of Footer Container -->
+
+          </body>
+          </html>

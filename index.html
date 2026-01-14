@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!--
+Author: Brooke Rahden
+Date: 01-05-2025
+Website for my project portfolio
+Navbar Setup:
+** Home - index.html - About Me **
+** Projects - projects.html - My Work **
+** Contact - contact.html - Get in Touch **
+-->
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brooke Rahden Portfolio</title>
+    <link rel="stylesheet" href="styles.css" /> <!-- Main CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />  <!-- Font Awesome Icons Access -->
+    <link rel="icon" type="image/x-icon" href="favicon_folder.svg"> <!-- Favicon -->
+</head>
+    <body>
+        <!-- Navbar Section -->
+         <!-- Navbar and Logo -->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="index.html" class="navbar__logo">
+                    <!-- Make only bounce once later -->
+                    <i id="logo--nav" class="fa-regular fa-folder-open fa-bounce"></i> <strong>Portfolio</strong>
+                </a>
+                <!-- Tabs Section in Navbar -->
+                <div class="navbar__nav-row">
+                    <ul class="navbar__menu">
+                        <li class="navbar__item">
+                            <a href="index.html" class="navbar__links"> About Me </a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="projects.html" class="navbar__links"> My Work </a>
+                        </li>
+                        <li class ="navbar__item">
+                            <a href="contact.html" class = "navbar__links">Get In Touch</a>
+                        </li>
+                    </ul>
+                    </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+         <!-- Creating the vertical color stirp, empty div -->
+        <div class="sticky__colorbar"></div>
+         <div class="hero__container">
+            <div class="hero--row">
+                <img class = "main__img" src="hero__img.jpg" alt="Brooke Rahden Portfolio Image">
+                <div class="hero__text">
+                    <h1>Brooke Rahden</h1>
+                    <div class="hero__subtitle">
+                        <h2>Web Developer | Programmer | Designer</h2>
+                        <p>Welcome to my portfolio! Explore my projects and get to know more about me.
+                            I am very passionate about everything computers, and I love creating
+                            projects from scratch. Feel free to browse around my website,
+                            view my work, and reach out if you'd like to connect!
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Buttons Section -->
+                <div class="sticky__colorbar-2"></div>
+                <div class="button__bar">
+                    <div class="buttons__container">
+                    <button class="button__text" onclick="location.href='projects.html'">View My Work</button>
+                    <button class="button__text" onclick="location.href='resume.jpg'" id="resume">Download Resume</button>
+                    <button class="button__text" onclick="location.href='contact.html'">Get In Touch</button>
+                </div>
+                </div>
+            </div>
+
+            <div class="footer__container">
+
+            </div> <!-- End of Hero Container -->
+
+                    <!-- Footer Section -->
+         <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__link--wrapper">
+                    <div class="footer__link--items">
+                        <h2>Information</h2>
+                        <a href="contact.html">Contact</a>
+                        <a href="index.html">About</a>
+                    </div>
+                    <div class="footer__link--items">
+                        <h2>Socials</h2>
+                        <a href="https://www.youtube.com/@brookerahden" target = "_blank">YouTube</a>
+                        <a href="https://www.instagram.com/brookerahden/" target = "_blank">Instagram</a>
+                        <a href="https://filmfreeway.com/BrookeRahden" target = "_blank">Film Freeway</a>
+                    </div>
+                </div>
+            </div>
+
+         <!-- Copyright and Logo in Footer -->
+            <div class="social__media">         <!-- Socials that use the fa-gem and more icons from fontsawesome -->
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="index.html" class="navbar__logo"><i id="logo--footer" class="fa-regular fa-folder-open fa-bounce"></i> <strong>Portfolio</strong>
+            </a>
+                    </div>
+                    <p class="website__rights"> &copy; Brooke Rahden Portfolio 2026. All rights reserved</p>
+                </div>
+            </div>
+        </div> <!-- End of Footer Container -->
+
+        </body>
+</html>
