@@ -186,7 +186,7 @@ a.navbar__links:hover::after {
 }
 
 /* Last project item id */
-#last-border {
+.last-border {
     border-bottom: none;
 }
 
