@@ -176,7 +176,7 @@ a.navbar__links:hover::after {
     align-items: center;
     justify-content: space-between;
     font-size: 1.2rem;
-    border-bottom: 5px solid #84a3a9;
+    border-bottom: 5px solid #28363d;
     border-radius: 2px;
 }
 
